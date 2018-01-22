@@ -1,0 +1,22 @@
+syntax: glob
+*.pyc
+*.pyo
+*.orig
+*.rej
+*.egg-info
+dist
+*.db
+*.log
+*.mo
+.DS_Store
+.project
+.pydevproject
+.settings
+.sonar
+nbproject
+
+*.fts
+syntax: regexp
+^data/kansha\.fts$
+^data/assets$
+
